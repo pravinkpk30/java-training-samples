@@ -1,0 +1,2 @@
+Java I/O with PrintWriter.
+Formatted number: 100
