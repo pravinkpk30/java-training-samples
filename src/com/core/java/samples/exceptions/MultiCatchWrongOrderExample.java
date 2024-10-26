@@ -9,9 +9,9 @@ public class MultiCatchWrongOrderExample {
         }*/ catch (ArithmeticException e) {  // More specific exception
             // This will cause a compilation error
             System.out.println("Caught ArithmeticException: " + e);
-        } catch (Exception e) {  // General exception catch block
+        } /*catch (Exception e) {  // General exception catch block
             System.out.println("Caught Exception: " + e);
-        }
+        }*/
     }
 }
 

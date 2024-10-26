@@ -1,5 +1,7 @@
 package com.core.java.samples.generics;
 
+import com.core.java.samples.Employee;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -9,6 +11,18 @@ import java.util.Set;
 
 public class GenericsExample {
     public static void main(String[] args) {
+
+        // Without Generics
+        List list = new ArrayList();
+        list.add("Javascript");
+        list.add(123);
+        list.add(23.45);
+        list.add(new Employee("Asif",123));
+
+        for (Object obj : list) {
+            System.out.println(obj);
+        }
+
         // Generic List
         List<String> stringList = new ArrayList<>();
         stringList.add("Hello");

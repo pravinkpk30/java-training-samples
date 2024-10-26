@@ -1,2 +1,2 @@
-Hello, World!
-This is Java NIO!
+Buffered I/O is more efficient.
+Each write is buffered for better performance.

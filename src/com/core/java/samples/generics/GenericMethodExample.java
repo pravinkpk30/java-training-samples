@@ -10,7 +10,7 @@ public class GenericMethodExample {
     }
 
     public static void main(String[] args) {
-        List<String> stringList = List.of("Apple", "Banana", "Cherry");
+        List<String> stringList = List.of("Java", "React", "Javascript");
         List<Integer> integerList = List.of(1, 2, 3);
 
         System.out.println("String List:");
